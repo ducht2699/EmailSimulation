@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Avatar"
+        android:text="S"
+        android:textSize="30sp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Subject"
+        android:textSize="25sp"
+        android:id="@+id/tv_Subject"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/tv_Avatar"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Details"
+        android:text="DetailsDetailsDetailsDeDetailsDetailsDetailsDetailsDetailsDetailsDetailstailsDetailsDetailsDetailsDetails"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/tv_Avatar"
+        android:layout_below="@+id/tv_Subject"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <CheckBox
+        android:id="@+id/cb_Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_Time"/>
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:45PM"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
