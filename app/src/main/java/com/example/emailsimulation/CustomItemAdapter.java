@@ -1,6 +1,7 @@
 package com.example.emailsimulation;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +62,7 @@ public class CustomItemAdapter extends BaseAdapter {
         vh_Temp.tv_Subject.setText(item.getSubject());
         vh_Temp.tv_Avatar.setText(item.getAvatar());
         vh_Temp.tv_Time.setText(item.getTime());
+
 
         return convertView;
     }

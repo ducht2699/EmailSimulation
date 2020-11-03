@@ -32,6 +32,8 @@
         android:ellipsize="end"/>
 
     <CheckBox
+        android:button="@drawable/star_checkbox"
+        android:buttonTint="@color/yellow"
         android:id="@+id/cb_Star"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
